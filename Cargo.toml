@@ -1,0 +1,11 @@
+[package]
+name = "paper-backup"
+version = "0.1.0"
+authors = ["Alex Macleod <alex@macleod.io>"]
+build = "build.rs"
+
+[dependencies]
+phf = "0.7.21"
+
+[build-dependencies]
+phf_codegen = "0.7.21"
